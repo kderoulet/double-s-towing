@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Smart';
+    src: url('Smart-Regular.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Smart-Med';
+    src: url('Smart-Medium.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Smart-Bold';
+    src: url('Smart-Bold.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Smart";
+    box-sizing: border-box;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: "Smart-Bold";
+}
+.content-heading {
+    color: #000 !important;
+}
+
+nav {
+    font-family: "Smart-Med";
+    font-size: 12px;
+    padding: 8px;
+    margin: 0;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 3%;
+    text-decoration: none;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    /* background-color: #000;
+    background: url('./cover-01.png') no-repeat center center; */
+    /* background-size: cover; */
+    height: 80vh;
+}
+.banner > img {
+    width: 100%;
+}
+
+.content {
+    background-color: #fff;
+    margin: 10px 8%;
+    color: #737373;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.item {
+    flex: 1 1 300px;
+}
+.fleet-item {
+    padding: 10px;
+}
+.text-content {
+    padding: 3%;
+}
+img {
+    width: 100%;
+}
+
+.section-heading {
+    box-sizing: border-box;
+    font-size: 24px;
+    color: #DA291C;
+    margin: 10px 8%;
+    padding: 20px 0;
+    display: inline-block;
+    width: 84%;
+    border-bottom: 1px solid #000;
+}
+
+.section {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.grey {
+    background-color: #f4f4f4;    
+}
+.white {
+    background-color: #fff
+}
+.red-text {
+    color: #da291c;
+    font-family: "Smart-Med"
+}
+
+#phone-call-nav {
+    background-color: #000;
+    color: #ddd;
+    text-align: center;
+}
+#phone-call-nav > a {
+    color: white;
+    text-decoration: underline;
+}
+#img-overlay {
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    color: white;
+    text-shadow: 3px #000;
+    font-family: "Smart-Bold";
+    font-size: 22px;
+}
+
+.photos > div {
+    margin: 5px;
+}
+
+footer {
+    width: 100%;
+    margin: 0;
+    min-height: 200px;
+    text-align: center;
+}
