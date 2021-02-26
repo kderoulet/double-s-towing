@@ -79,6 +79,7 @@ var scroll =
     }
 };
 
+// document.querySelector('#nav-top').addEventListener('click', () => scroll.scrollVerticalToElementById('top', 30))
 document.querySelector('#nav-about').addEventListener('click', () => scroll.scrollVerticalToElementById('about', 30))
 document.querySelector('#nav-services').addEventListener('click', () => scroll.scrollVerticalToElementById('services', 30))
 document.querySelector('#nav-fleet').addEventListener('click', () => scroll.scrollVerticalToElementById('fleet', 30))
